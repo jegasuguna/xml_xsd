@@ -9,6 +9,7 @@
   <tns:parent>
     <tns:attribute1/>
     <tns:attribute1/>
-    
+  <tns:attribute2/>
+    <tns:attribute2/>
   </tns:parent>
 </tns:root>
