@@ -2,7 +2,7 @@
 param([string][string][string]$username,$password,$xmlFileName)
 
 # Check if the provided file exists
-if((Test-Path -Path $xmlFileName) -eq $false)
+if((Test-Path  $xmlFileName) -eq $false)
 {
     Write-Host "XML validation not possible since no XML file found at '$xmlFileName'"
     exit 2
