@@ -1,5 +1,5 @@
 ﻿# xmlFileName: Filename of the XML file to validate
-param([string]$xmlfilename)
+$xmlfilename="NewFile1.xml"
 
 # Check if the provided file exists
 if((Test-Path -Path $xmlFileName) -eq $false)
