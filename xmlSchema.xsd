@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/myxmlSchema" xmlns:tns="http://www.example.org/myxmlSchema" elementFormDefault="qualified">
+
+
+    
+    
+
+
+    <element name="root" type="tns:rootType"></element>
+    
+    <complexType name="rootType">
+    	<sequence>
+    		<element name="parent" type="tns:parentType" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="parent"></complexType>
+
+    <complexType name="parentType">
+    	<sequence>
+    		<element name="attribute1" type="tns:attributeType"
+    			maxOccurs="unbounded" minOccurs="2">
+    		</element>
+    		<element name="attribute2" type="tns:attributeType2" maxOccurs="unbounded" minOccurs="2"></element>
+    	</sequence>
+    	
+    	
+    </complexType>
+
+    <complexType name="attributeType"></complexType>
+
+    <complexType name="attributeType2"></complexType>
+</schema>

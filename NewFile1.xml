@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:root xmlns:tns="http://www.example.org/myxmlSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/myxmlSchema xmlSchema.xsd ">
+  <tns:parent>
+    <tns:attribute1/>
+    <tns:attribute1/>
+    <tns:attribute2/>
+    <tns:attribute2/>
+  </tns:parent>
+  <tns:parent>
+    <tns:attribute1/>
+    <tns:attribute1/>
+    <tns:attribute2/>
+    <tns:attribute2/>
+  </tns:parent>
+</tns:root>
